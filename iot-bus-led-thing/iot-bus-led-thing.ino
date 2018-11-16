@@ -27,7 +27,7 @@ WebThingAdapter* adapter;
 
 const char* ledTypes[] = {"OnOffSwitch", "led", nullptr};
 ThingDevice led("LED", "LED", ledTypes);
-ThingProperty ledOn("on", "", BOOLEAN, "OnOffProperty");
+ThingProperty ledOn("On", "", BOOLEAN, "OnOffProperty");
 
 bool lastOn = false;
 
