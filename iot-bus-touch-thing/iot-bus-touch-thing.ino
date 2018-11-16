@@ -19,7 +19,7 @@ WebThingAdapter* adapter;
 
 const char* sensorTypes[] = {"binarySensor", nullptr};
 ThingDevice touch("Touch", "ESP32 Touch Input", sensorTypes);
-ThingProperty touched("true", "", BOOLEAN, "BooleanProperty");
+ThingProperty touched("Touched", "", BOOLEAN, "BooleanProperty");
 ThingPropertyValue sensorValue;
 
 int threshold = 40;
